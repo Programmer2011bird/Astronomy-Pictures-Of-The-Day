@@ -7,3 +7,4 @@ A Website To Get Info About Daily Pictures And Videos In NASA
 
 > [!NOTE]
 > To View The Image Or The Video Just Click On The Button In Bottom, It Will Open A Tab With The Picture In It Which Is Actually The Nasa Website Itself, And It Would Not Cause Any Copyright Strikes
+
