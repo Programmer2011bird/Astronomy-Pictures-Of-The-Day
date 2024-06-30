@@ -4,7 +4,8 @@ import requests
 class API:
     def __init__(self) -> dict[str, str]:
         # Api Endpoint
-        self.URL: str = "https://api.nasa.gov/planetary/apod?api_key=VhtcONnZjPPsUybZiV00a7EUJ06Yif8Rb9zDldjJ"
+        API_KEY: str = "YOUR API KEY"
+        self.URL: str = f"https://api.nasa.gov/planetary/apod?api_key={API_KEY}"
         # Getting The Json Data
         self.JSON_DATA: Any = requests.get(self.URL).json()
         # Getting The Wanted Information From The Json
